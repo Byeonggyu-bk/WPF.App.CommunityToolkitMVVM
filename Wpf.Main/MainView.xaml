@@ -21,13 +21,15 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" Margin="10">
                 <units:ToggleRadioButton Content="Home" Margin="0 0 20 0" GroupName="Menu" IsChecked="{Binding MenuModel.MenuType, ConverterParameter={x:Static datas:MenuTypes.Home}, Converter={StaticResource enumToBooleanConverter}}" VerticalAlignment="Center"/>
                 <units:ToggleRadioButton Content="Datas" Margin="0 0 20 0" GroupName="Menu" IsChecked="{Binding MenuModel.MenuType, ConverterParameter={x:Static datas:MenuTypes.Datas}, Converter={StaticResource enumToBooleanConverter}}" VerticalAlignment="Center"/>
                 <units:ToggleRadioButton Content="Remark" Margin="0 0 20 0" GroupName="Menu" IsChecked="{Binding MenuModel.MenuType, ConverterParameter={x:Static datas:MenuTypes.Remark}, Converter={StaticResource enumToBooleanConverter}}" VerticalAlignment="Center"/>
             </StackPanel>
         </Grid>
 
-        <ContentControl Grid.Row="1" Content="{Binding ContentView}"/>
+        <Grid Background="#252526" Grid.Row="1">
+            <ContentControl Grid.Row="1" Content="{Binding ContentView}"/>
+        </Grid>
     </Grid>
 </UserControl>

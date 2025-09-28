@@ -12,12 +12,10 @@ namespace Wpf.App
     /// </summary>
     public partial class App : Application
     {
-        public static BootStarter BootStarter { get; private set; }
-
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            BootStarter = new BootStarter();
-            BootStarter.Run();
+            var starter = new BootStarter();
+            starter.Run();
 
             var window = Ioc.Default.GetRequiredService<MainWindow>();
             window.Show();

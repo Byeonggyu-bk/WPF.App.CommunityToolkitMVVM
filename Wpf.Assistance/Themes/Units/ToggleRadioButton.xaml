@@ -2,12 +2,12 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:units="clr-namespace:Wpf.Assistance.UI.Units">
 
-    <SolidColorBrush x:Key="ToggleRadioButton.Background.Normal"       Color="#828999" />
-    <SolidColorBrush x:Key="ToggleRadioButton.Background.Checked"      Color="#f5cb3d" />
+    <SolidColorBrush x:Key="ToggleRadioButton.Background.Normal"       Color="#3d3d3d" />
+    <SolidColorBrush x:Key="ToggleRadioButton.Background.Checked"      Color="#3ac7f3" />
     <SolidColorBrush x:Key="ToggleRadioButton.Background.MouseOver"    Color="#292f3a" />
     <SolidColorBrush x:Key="ToggleRadioButton.Background.Disable"      Color="#bfbfbf" />
     <SolidColorBrush x:Key="ToggleRadioButton.Foreground.Normal"       Color="#fff"    />
-    <SolidColorBrush x:Key="ToggleRadioButton.Foreground.Checked"      Color="#3b4353" />
+    <SolidColorBrush x:Key="ToggleRadioButton.Foreground.Checked"      Color="#fbc21b" />
     <SolidColorBrush x:Key="ToggleRadioButton.BorderBrush.Normal"      Color="#828999" />
     <SolidColorBrush x:Key="ToggleRadioButton.BorderBrush.Checked"     Color="#f5cb3d" />
 

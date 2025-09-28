@@ -7,9 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock Text="{Binding TestText}"/>
+        <TextBlock Text="{Binding TestText}" FontSize="40" FontWeight="Bold" Margin="10 0 0 0"/>
 
-        <Rectangle Fill="{Binding RandomColor}" StrokeThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="20" Margin="10,32,0,0"/>
+        <Rectangle Fill="{Binding RandomColor}" StrokeThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="20" Margin="10,60,0,0"/>
 
     </Grid>
 </UserControl>
