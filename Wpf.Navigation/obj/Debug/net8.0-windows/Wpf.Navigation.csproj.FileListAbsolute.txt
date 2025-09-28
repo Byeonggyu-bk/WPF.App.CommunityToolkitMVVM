@@ -1,0 +1,16 @@
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\bin\Debug\net8.0-windows\Wpf.Navigation.deps.json
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\bin\Debug\net8.0-windows\Wpf.Navigation.dll
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\bin\Debug\net8.0-windows\Wpf.Navigation.pdb
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\bin\Debug\net8.0-windows\Wpf.Core.dll
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\bin\Debug\net8.0-windows\Wpf.Core.pdb
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.csproj.AssemblyReference.cache
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.AssemblyInfoInputs.cache
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.AssemblyInfo.cs
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.csproj.CoreCompileInputs.cache
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.sourcelink.json
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navi.DEC6C649.Up2Date
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.dll
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\refint\Wpf.Navigation.dll
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\Wpf.Navigation.pdb
+C:\GitHub\Apps\Wpf.App\Wpf.Navigation\obj\Debug\net8.0-windows\ref\Wpf.Navigation.dll

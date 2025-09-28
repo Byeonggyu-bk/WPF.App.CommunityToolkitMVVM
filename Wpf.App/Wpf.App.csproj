@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wpf.Assistance\Wpf.Assistance.csproj" />
+    <ProjectReference Include="..\Wpf.Core\Wpf.Core.csproj" />
+    <ProjectReference Include="..\Wpf.Datas\Wpf.Datas.csproj" />
+    <ProjectReference Include="..\Wpf.Main\Wpf.Main.csproj" />
+    <ProjectReference Include="..\Wpf.Remark\Wpf.Remark.csproj" />
+  </ItemGroup>
+
+</Project>

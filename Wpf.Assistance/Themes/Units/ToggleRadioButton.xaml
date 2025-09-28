@@ -1,0 +1,81 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:units="clr-namespace:Wpf.Assistance.UI.Units">
+
+    <SolidColorBrush x:Key="ToggleRadioButton.Background.Normal"       Color="#828999" />
+    <SolidColorBrush x:Key="ToggleRadioButton.Background.Checked"      Color="#f5cb3d" />
+    <SolidColorBrush x:Key="ToggleRadioButton.Background.MouseOver"    Color="#292f3a" />
+    <SolidColorBrush x:Key="ToggleRadioButton.Background.Disable"      Color="#bfbfbf" />
+    <SolidColorBrush x:Key="ToggleRadioButton.Foreground.Normal"       Color="#fff"    />
+    <SolidColorBrush x:Key="ToggleRadioButton.Foreground.Checked"      Color="#3b4353" />
+    <SolidColorBrush x:Key="ToggleRadioButton.BorderBrush.Normal"      Color="#828999" />
+    <SolidColorBrush x:Key="ToggleRadioButton.BorderBrush.Checked"     Color="#f5cb3d" />
+
+    <Style TargetType="{x:Type units:ToggleRadioButton}" BasedOn="{StaticResource {x:Type RadioButton}}">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Width" Value="77"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="BorderBrush" Value="{StaticResource ToggleRadioButton.BorderBrush.Normal}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Foreground" Value="{StaticResource ToggleRadioButton.Foreground.Normal}"/>
+        <Setter Property="Background" Value="{StaticResource ToggleRadioButton.Background.Normal}"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Border x:Name="mainMenuBorder" CornerRadius="2" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                    Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                        <ContentPresenter Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}"
+                                RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="False"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Background" TargetName="mainMenuBorder" Value="{StaticResource ToggleRadioButton.Background.MouseOver}"/>
+                        </MultiTrigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Background" TargetName="mainMenuBorder" Value="{StaticResource ToggleRadioButton.Background.Checked}"/>
+                        </MultiTrigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="False"/>
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Background" TargetName="mainMenuBorder" Value="{StaticResource ToggleRadioButton.Background.Checked}"/>
+                            <Setter Property="BorderBrush" TargetName="mainMenuBorder" Value="{StaticResource ToggleRadioButton.BorderBrush.Checked}"/>
+                        </MultiTrigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsEnabled" Value="False"/>
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Background" TargetName="mainMenuBorder" Value="{StaticResource ToggleRadioButton.Background.Disable}"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Foreground" Value="{StaticResource ToggleRadioButton.Foreground.Checked}"/>
+            </Trigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsChecked" Value="True"/>
+                    <Condition Property="IsMouseOver" Value="True"/>
+                </MultiTrigger.Conditions>
+                <Setter Property="Foreground" Value="{StaticResource ToggleRadioButton.Foreground.Normal}"/>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>
