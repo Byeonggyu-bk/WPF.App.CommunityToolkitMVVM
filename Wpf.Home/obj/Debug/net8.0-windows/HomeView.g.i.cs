@@ -53,7 +53,7 @@ namespace Wpf.Home {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf.Home;V1.0.0.0;component/homeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf.Home;component/homeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\HomeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
