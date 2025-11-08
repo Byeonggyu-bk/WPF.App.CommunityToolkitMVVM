@@ -21,3 +21,9 @@ C:\GitHub\Apps\Wpf.App\Wpf.Datas\obj\Debug\net8.0-windows\Wpf.Datas.pdb
 C:\GitHub\Apps\Wpf.App\Wpf.Datas\obj\Debug\net8.0-windows\ref\Wpf.Datas.dll
 C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\Wpf.Assistance.dll
 C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\Wpf.Assistance.pdb
+C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\AExcel.dll
+C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\AExcel.pdb
+C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.xml
+C:\GitHub\Apps\Wpf.App\Wpf.Datas\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.xml

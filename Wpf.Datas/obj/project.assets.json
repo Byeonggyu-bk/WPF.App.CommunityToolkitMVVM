@@ -53,6 +53,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "AExcel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AExcel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AExcel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Wpf.Assistance/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -188,6 +201,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "AExcel/1.0.0": {
+      "type": "project",
+      "path": "../AExcel/AExcel.csproj",
+      "msbuildProject": "../AExcel/AExcel.csproj"
+    },
     "Wpf.Assistance/1.0.0": {
       "type": "project",
       "path": "../Wpf.Assistance/Wpf.Assistance.csproj",
@@ -201,6 +219,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "AExcel >= 1.0.0",
       "Wpf.Assistance >= 1.0.0",
       "Wpf.Core >= 1.0.0"
     ]
@@ -237,6 +256,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\GitHub\\Apps\\Wpf.App\\AExcel\\AExcel.csproj": {
+              "projectPath": "C:\\GitHub\\Apps\\Wpf.App\\AExcel\\AExcel.csproj"
+            },
             "C:\\GitHub\\Apps\\Wpf.App\\Wpf.Assistance\\Wpf.Assistance.csproj": {
               "projectPath": "C:\\GitHub\\Apps\\Wpf.App\\Wpf.Assistance\\Wpf.Assistance.csproj"
             },

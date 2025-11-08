@@ -45,6 +45,14 @@
           }
         }
       },
+      "AExcel/1.0.0": {
+        "runtime": {
+          "AExcel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Wpf.Assistance/1.0.0": {
         "runtime": {
           "Wpf.Assistance.dll": {
@@ -67,6 +75,7 @@
       },
       "Wpf.Datas/1.0.0": {
         "dependencies": {
+          "AExcel": "1.0.0",
           "Wpf.Assistance": "1.0.0",
           "Wpf.Core": "1.0.0"
         },
@@ -114,6 +123,22 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "DocumentFormat.OpenXml/3.3.0.0": {
+        "runtime": {
+          "DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.3.0.0": {
+        "runtime": {
+          "DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
+          }
+        }
       }
     }
   },
@@ -144,6 +169,11 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.9",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
     },
+    "AExcel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Wpf.Assistance/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -171,6 +201,16 @@
     },
     "Wpf.Remark/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentFormat.OpenXml/3.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentFormat.OpenXml.Framework/3.3.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

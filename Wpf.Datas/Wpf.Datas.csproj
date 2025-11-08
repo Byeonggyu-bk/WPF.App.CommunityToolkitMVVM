@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AExcel\AExcel.csproj" />
     <ProjectReference Include="..\Wpf.Assistance\Wpf.Assistance.csproj" />
     <ProjectReference Include="..\Wpf.Core\Wpf.Core.csproj" />
   </ItemGroup>

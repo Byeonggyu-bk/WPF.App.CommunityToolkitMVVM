@@ -10,5 +10,16 @@
         <TextBlock Text="{Binding TestText}" FontSize="40" FontWeight="Bold" Margin="10 0 0 0"/>
 
         <Button Command="{Binding ChangeColorCommand}" Content="홈화면 색 변경" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="30" Margin="10,60,0,0"/>
+
+        <Grid Margin="0 200 0 0">
+            <TextBlock Text="※ 엑셀파일 생성 ※" Margin="10,100,0,0" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" FontSize="20"/>
+            <TextBlock Text="파일경로:" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,138,0,0" Height="25"  Width="60" TextWrapping="Wrap"/>
+            <TextBox Text="{Binding ExcelPath}" IsReadOnly="True" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="250" Margin="75,136,0,0"/>
+            <Button Command="{Binding SetPathCommand}" Content="경로" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="30" Margin="335,134,0,0"/>
+            <Button Command="{Binding MakeExcelFileCommand}" Content="엑셀파일 생성" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Height="30" Margin="410,134,0,0"/>
+
+            <TextBlock Text="1. '경로'버튼을 눌러 엑셀파일을 생성할 경로를 선택합니다." Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Margin="10,172,0,0"/>
+            <TextBlock Text="2. '엑셀파일 생성'버튼을 눌러 엑셀파일을 생성합니다." Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Margin="10,197,0,0"/>
+        </Grid>
     </Grid>
 </UserControl>

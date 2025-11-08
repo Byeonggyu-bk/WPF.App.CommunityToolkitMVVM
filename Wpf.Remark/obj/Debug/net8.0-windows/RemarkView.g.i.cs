@@ -53,7 +53,7 @@ namespace Wpf.Remark {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf.Remark;component/remarkview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf.Remark;V1.0.0.0;component/remarkview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RemarkView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
