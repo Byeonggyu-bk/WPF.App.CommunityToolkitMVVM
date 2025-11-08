@@ -58,6 +58,8 @@ namespace Wpf.Datas
                 workBook.Save();
             }
 
+            System.Windows.MessageBox.Show("Excel파일 생성!");
+
             //using (var workBook = AExcel.AExcel.Create(path))
             //{
             //    var worksheet = workBook["Sheet1"];
