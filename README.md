@@ -1,2 +1,7 @@
 # WPF.App.CommunityToolkitMVVM
-CommunityToolkit을 이용한 MVVM 구조의 WPF App
+## WPF 
+- CommunityToolkit.Mvvm을 이용한 MVVM 구조의 WPF App.
+- ObservableRecipient의 Messenger를 이용한 ViewModel간의 통신.
+## AExcel (using OpenXML)
+- 오픈소스 OpenXML을 추상화하여 선행 지식 없이 좀더 쉽게 엑셀 문서를 생성할 수 있는 라이브러리.
+
