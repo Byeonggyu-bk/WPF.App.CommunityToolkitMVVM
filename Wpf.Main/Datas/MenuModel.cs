@@ -28,6 +28,7 @@ namespace Wpf.Main.Datas
     {
         Home,
         Datas,
+        Python,
         Remark,
     }
 }

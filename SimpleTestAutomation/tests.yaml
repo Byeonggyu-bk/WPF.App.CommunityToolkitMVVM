@@ -1,0 +1,14 @@
+tests:
+  - name: Voltage_5V
+    type: voltage
+    min: 4.8
+    max: 5.2
+
+  - name: Current_Check
+    type: current
+    min: 0.1
+    max: 0.35
+
+  - name: Alive_Signal
+    type: boolean
+    expect: true

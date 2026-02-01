@@ -12,6 +12,7 @@
     <ProjectReference Include="..\Wpf.Core\Wpf.Core.csproj" />
     <ProjectReference Include="..\Wpf.Datas\Wpf.Datas.csproj" />
     <ProjectReference Include="..\Wpf.Home\Wpf.Home.csproj" />
+    <ProjectReference Include="..\Wpf.Python\Wpf.Python.csproj" />
     <ProjectReference Include="..\Wpf.Remark\Wpf.Remark.csproj" />
   </ItemGroup>
 

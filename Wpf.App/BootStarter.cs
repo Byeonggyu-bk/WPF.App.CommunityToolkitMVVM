@@ -8,6 +8,7 @@ using Wpf.Core.Navigation.Datas;
 using Wpf.Datas;
 using Wpf.Home;
 using Wpf.Main;
+using Wpf.Python;
 using Wpf.Remark;
 
 namespace Wpf.App
@@ -22,6 +23,7 @@ namespace Wpf.App
             viewModelMapper.Register<MainWindow, MainWindowViewModel>();
             viewModelMapper.Register<HomeView, HomeViewModel>();
             viewModelMapper.Register<DatasView, DatasViewModel>();
+            viewModelMapper.Register<PythonView, PythonViewModel>();
             viewModelMapper.Register<RemarkView, RemarkViewModel>();
             viewModelMapper.Register<MainView, MainViewModel>();
         }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Wpf.Core.Navigation.Datas;
 using Wpf.Datas;
 using Wpf.Home;
+using Wpf.Python;
 using Wpf.Main.Datas;
 using Wpf.Remark;
 
@@ -37,6 +38,7 @@ namespace Wpf.Main
             {
                 case MenuTypes.Home: ContentView = Ioc.Default.GetRequiredService<HomeView>(); break;
                 case MenuTypes.Datas: ContentView = Ioc.Default.GetRequiredService<DatasView>(); break;
+                case MenuTypes.Python: ContentView = Ioc.Default.GetRequiredService<PythonView>(); break;
                 case MenuTypes.Remark: ContentView = Ioc.Default.GetRequiredService<RemarkView>(); break;
             }
         }

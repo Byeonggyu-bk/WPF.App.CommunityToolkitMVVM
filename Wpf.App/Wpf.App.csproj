@@ -16,4 +16,23 @@
     <ProjectReference Include="..\Wpf.Remark\Wpf.Remark.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<!-- 레포 루트의 tools 폴더에서 복사할 파일들 -->
+		<_ToolFiles Include="..\Tools\SimpleTestAutomation\*.*" />
+	</ItemGroup>
+
+	<Target Name="CopySimpleTestAutomationTools" AfterTargets="Build">
+		<!-- 출력 폴더 기준: bin\Debug\net8.0-windows\Tools\SimpleTestAutomation\ -->
+		<PropertyGroup>
+			<_ToolsOutDir>$(TargetDir)Tools\SimpleTestAutomation\</_ToolsOutDir>
+		</PropertyGroup>
+
+		<MakeDir Directories="$(_ToolsOutDir)" />
+
+		<Copy
+		  SourceFiles="@(_ToolFiles)"
+		  DestinationFiles="@(_ToolFiles->'$(_ToolsOutDir)%(RecursiveDir)%(Filename)%(Extension)')"
+		  SkipUnchangedFiles="false" />
+	</Target>
+
 </Project>
