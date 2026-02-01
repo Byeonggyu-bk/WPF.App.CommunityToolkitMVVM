@@ -9,6 +9,6 @@
 ## SimpleTestAutomation 예제 [Python]
 - SimpleTestAutomation은 Python 기반의 간단한 테스트 자동화 엔진입니다.
 YAML 설정 파일을 기반으로 테스트를 실행하고 결과를 생성합니다.
-본 WPF 애플리케이션은 해당 엔진을 독립 실행 파일(EXE) 형태로 실행하며,
+- 본 WPF 애플리케이션은 해당 엔진을 독립 실행 파일(EXE) 형태로 실행하며,
 외부 프로세스의 표준 출력(stdout)을 수신하여 결과를 UI에 시각화합니다.
 
