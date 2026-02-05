@@ -1,4 +1,4 @@
-# WPF.App.CommunityToolkitMVVM
+# WPF-MVVM
 ## WPF 
 - CommunityToolkit.Mvvm을 이용한 MVVM 구조의 WPF App.
 - ObservableRecipient의 Messenger를 이용한 ViewModel간의 통신.
